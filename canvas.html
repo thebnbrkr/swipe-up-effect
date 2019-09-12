@@ -1,0 +1,33 @@
+<html>
+<body>
+<style>
+h1 {
+  margin: 0
+}
+.box {
+  height: 450px;
+  width: 1000px;
+  overflow: hidden;
+  border: 1px solid black;
+  background: #111111;
+}
+.popup{
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  background: #FF6347;
+  height: 100%;
+}
+
+.box:hover > .popup{
+  top: 0;
+}
+</style>
+<div class="box">
+  <div class="popup">
+    <h1>swipe up</h1>
+    <p>swipe up effect</p>
+  </div>
+</div>
+</body>
+</html>
